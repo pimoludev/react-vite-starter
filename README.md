@@ -4,11 +4,11 @@ A minimal, independent React starter with Vite, TypeScript, Tailwind CSS and the
 
 ## Getting started
 
-Use Node.js 22.12+ (or 24+) and pnpm 10.28.2. You can enable pnpm with Corepack: `corepack enable`.
+Use Node.js 22.12+ (or 24+) and npm 10 or newer.
 
 ```sh
-pnpm install
-pnpm dev
+npm install
+npm run dev
 ```
 
 Open the local URL printed by Vite. Edit `src/App.tsx` and save to see changes immediately.
@@ -30,14 +30,15 @@ Browse the [component catalogue](https://pimolu.com/components) and [documentati
 ## Checks and production
 
 ```sh
-pnpm typecheck
-pnpm lint
-pnpm build
-pnpm preview
+npm run typecheck
+npm run lint
+npm run build
+npm run preview
 ```
 
-`pnpm build` also checks TypeScript and writes a static site to `dist/`. Deploy that directory to any static host. For a deployment under a subpath, set Vite's `base` in `vite.config.ts` to the public path before building.
+`npm run build` also checks TypeScript and writes a static site to `dist/`. Deploy that directory to any static host. For a deployment under a subpath, set Vite's `base` in `vite.config.ts` to the public path before building.
 
 ## Use this template
 
 On GitHub, select **Use this template** → **Create a new repository**, then clone your new repository and run the installation commands above. The template repository must have GitHub's template setting enabled by its owner.
+

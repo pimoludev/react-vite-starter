@@ -3,7 +3,7 @@ import { Button } from '@pimolu/react'
 const links = {
   components: 'https://pimolu.com/components',
   docs: 'https://pimolu.com/docs',
-  examples: 'https://github.com/pimoludev/ui#use-it',
+  showcase: 'https://pimolu.com/showcase',
   github: 'https://github.com/pimoludev/ui',
 }
 
@@ -27,7 +27,7 @@ function App() {
       </main>
       <footer className="footer" aria-label="Resources">
         <a href={links.docs}>Learn <span aria-hidden="true">↗</span></a>
-        <a href={links.examples}>Examples <span aria-hidden="true">↗</span></a>
+        <a href={links.showcase}>Showcase <span aria-hidden="true">↗</span></a>
         <a href={links.github}>GitHub <span aria-hidden="true">↗</span></a>
       </footer>
     </div>
